@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(240, 239, 239);
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    margin: 0;
+    font-weight: 400;
+}
+
+h2{
+    margin: 0;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.box{
+    background: white;
+    width: 50rem;
+    padding: 3rem;
+    margin: 1rem auto;
+    border-radius: .5rem;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 40% 60%; 
+}
+
+.head-left{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.first-name{
+    font-weight: 400;
+    margin: 0;
+}
+
+.last-name{
+    font-weight: 200;
+    margin: 0;
+}
+
+.head-right{
+    width: 100%;
+    display: grid;
+    justify-items: end;
+}
+
+.head-right p{
+    display: inline;
+}
+
+.icon{
+    color: rgb(233, 233, 233);
+    font-size: 1.5rem;
+    margin-right: .5rem;
+}
+
+.grey{
+    background: rgb(133, 133, 133);
+    color: white;
+    padding: .5rem;
+    border-radius: .3rem;
+}
+
+table{
+    border: 2px solid black;
+    margin: 1rem 0;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse ;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: .4rem;
+}
